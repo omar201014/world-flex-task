@@ -3,13 +3,14 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: "Work sans",sans-serif;
-    }
+    box-sizing: border-box;    
+}
 
 :root{
     font-size: 12px;
     line-height: 1.4;
+    font-family: "Work sans",sans-serif;
+    font-weight: 400;
 }
 
 a{
@@ -20,7 +21,17 @@ ul{
     list-style: none;
 }
 /* global */
-
+h1{
+    font-size: 18px;
+    color: #000000;
+    margin-right: auto;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
 .container{
     width: 1140px;
     margin: auto;
@@ -37,6 +48,12 @@ ul{
 }
 .align-items-center{ 
     align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.box-shadow{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15)
 }
 
 .bg-img{
@@ -73,7 +90,7 @@ margin-right: 16px;
     font-weight: bold;
     color: white;
 }
-ul{
+.nav-bar ul{
     color: rgb(216, 210, 210);
     font-size: 1.3rem;
     font-weight: bold;
@@ -84,7 +101,7 @@ ul{
     cursor: pointer;
 }
 
-li:hover{
+.nav-bar li:hover{
     color: white;
 }
 .cards-area{
@@ -111,4 +128,116 @@ li:hover{
     height: 55px;
     border: 4px solid #8d8d8d;
     border-radius: 50%;
+}
+.posts-area{
+    width: 100%;
+    padding: 0 15px;
+    margin: 100px auto 0 auto;
+    max-width: 1140px;
+}
+
+.content-posts-area{
+    flex-wrap: wrap;
+    
+}
+.right-side{
+    flex: 0 0 62%;
+    max-width: 62%;   
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.right-nav{
+    border-bottom: 2px solid #cccfd3;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    gap: 27px;
+}
+.right-nav h1{
+        font-size: 18px;
+        color: #000000;
+        margin-right: auto;
+        font-weight: 700;
+}
+.right-posts-area{
+    padding-top: 30px;
+    max-width: 50%;
+    flex-flow: column;
+}
+
+.right-col{
+    position: relative;
+    flex-flow: column;
+    margin-bottom: 5px;
+}
+.post-content-1{
+    padding: 20px 30px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.right-col h1{
+    margin-bottom: 10px;
+}
+.right-col p{
+    font-weight: 300;
+    color: #8d8d8d;
+}
+.float-text{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    z-index: 50;
+}
+.float-text a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 10px;
+    letter-spacing: 0.75px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #00f;
+    font-weight: 600;
+}
+.sliders{
+    gap: 15px;
+    font-size: 36px;
+    color: #8d8d8d;
+    max-width: 50%;
+    margin:25px 0 0 10px;
+}
+.sliders i{
+    width: 36px;
+    height: 36px;
+    border: 2px solid #8d8d8d;
+    border-radius: 50%;
+    line-height: 0.89;
+    text-align: center;
+    box-shadow: none;
+}
+.sliders i:hover{
+    color:  white;
+    background-color: rgb(75, 75, 238);
+    cursor: pointer;
+    border: none;
+}
+.left-col{
+    flex: 0 0 50%;
+    flex-flow: column;
+    max-width: 50%;
+    padding: 30px 15px 0 15px;
+
+}
+.post-card{
+    margin-bottom: 5px;
+}
+.left-col h1{
+    font-size: 14px;
+}
+.post-content-2{
+    padding: 5px 30px 5px 5px;
+    margin-bottom: 15px;
 }

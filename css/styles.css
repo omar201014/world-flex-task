@@ -56,20 +56,20 @@ img{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15)
 }
 
+
+/* elements */
 .bg-img{
     background-image: url(../images/xbg2.jpg.pagespeed.ic.QoUnFCtMkz.webp);
     background-size: cover;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-/* elements */
 .container .header-section{
-    
     position: absolute;
 }
+
 .nav-bar{
     position: fixed;
     z-index: 300;
@@ -80,15 +80,17 @@ img{
 }
 
 .site-logo{
-padding: 2px;
-margin-right: 16px;
+    padding: 2px;
+    margin-right: 16px;
 }
 
 .site-logo h1{
     font-family: Raleway,sans-serif;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
     color: white;
+    letter-spacing: -2.1px;
+    text-transform: uppercase;
 }
 .nav-bar ul{
     color: rgb(216, 210, 210);
@@ -114,7 +116,6 @@ margin-right: 16px;
     font-weight: 700;
     color: white;
     padding: 0 20px;
-       
 }
 .post-num{
     min-width: 80px;

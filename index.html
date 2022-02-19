@@ -61,7 +61,7 @@
     </section>
     <section class="posts-area align-items-center">
         <div class="content-posts-area d-flex">
-            <div class="right-side d-flex">
+            <div class="right-side wow bounceInLeft d-flex" data-wow-delay="0.5s" style="animation-delay: 0.4s;"> 
                 <ul class="right-nav d-flex align-items-center">
                     <li><h1>Don't miss</h1></li>
                     <li>All</li>
@@ -72,7 +72,7 @@
                     <li>Gadgets</li>
                     <li>More</li>
                 </ul>
-                <div class="right-posts-area d-flex">
+                <div class="right-posts-area wow bounceInUp d-flex" data-wow-delay="0.5s" style="animation-delay: 0.4s;">
                     <div class="right-col box-shadow d-flex">
                         <img src="images/b1.jpg" alt="image1" style="width: 100%;">
                         <div class="post-content-1">
@@ -88,7 +88,7 @@
                         <i class="fa-solid fa-angle-right"></i>      
                     </div>
                 </div>
-                <div class="left-col d-flex">
+                <div class="left-col wow fadeInUpBig d-flex" data-wow-delay="0.5s" style="animation-delay: 0.4s;">
                     <div class="post-card d-flex align-items-center justify-content-between box-shadow">
                         <img src="images/b11.jpg" alt="image1">
                         <div class="post-content-2">
@@ -126,7 +126,7 @@
                         <li>Gadgets</li>
                         <li>More</li> 
                     </ul>
-                    <div class="right-posts-area d-flex">
+                    <div class="right-posts-area wow bounceInUp d-flex" data-wow-delay="0.5s" style="animation-delay: 0.4s;">
                         <div class="right-col box-shadow d-flex">
                             <img src="images/xb2.jpg.pagespeed.ic.G3CqIJTFth.webp" alt="image8" style="width: 100%;">
                             <div class="post-content-1">
@@ -154,7 +154,7 @@
                             <i class="fa-solid fa-angle-right"></i>      
                         </div>
                     </div>
-                    <div class="right-posts-area d-flex">
+                    <div class="right-posts-area wow bounceInDown d-flex" data-wow-delay="0.4s" style="animation-duration: 0.5s;">
                         <div class="right-col box-shadow d-flex">
                             <img src="images/xb3.jpg.pagespeed.ic.ZoWo4VzCxa.webp" alt="image9" style="width: 100%;">
                             <div class="post-content-1">
@@ -279,12 +279,12 @@
         </main>
         <button class="ld-more">Load More</button>                    
     </section>
-    
-
-
-
+ 
     <a id="scroll" href="#top">
         <i class="fa-solid fa-angle-up"></i>
     </a>
     <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+        </script>
 </body>

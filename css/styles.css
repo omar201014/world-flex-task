@@ -41,8 +41,7 @@ ul{
 /* global */
 h1{
     font-size: 18px;
-    color: #000000;
-    margin-right: auto;
+    color: #000000;    
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
 }
@@ -79,7 +78,12 @@ img{
 .left-post-padding{
     padding: 10px 0 10px 30px;
 }
-
+.post-meta{
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 11px;
+    line-height: 1.4;
+}
 
 /* elements */
 .bg-img{
@@ -279,7 +283,7 @@ img{
 
 .about-post p{
     margin-top: 25px;
-    font-size: 1.1rem;
+    font-size: 14px;
     color: #8d8d8d;    
     line-height: 1.5;
     margin-bottom: 1rem;
@@ -293,4 +297,98 @@ img{
 }
 .l-cards img{
     width: 37%;
+}
+.social-widget{
+    flex-direction: column;
+}
+.social-icons{
+    padding: 30px 0 30px 30px;
+}
+.social-icons i{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.4;
+    border-radius: 100%;
+    border: 1px solid #f1f1f1;
+}
+.social-icons i:hover{
+    color: #00f;
+}
+
+.news-widget{
+    flex-direction: column;
+}
+
+.news-content{
+    flex-direction: column;
+    padding: 30px 0 30px 30px;
+}
+.topics-area{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    max-height: 250px;
+}
+
+        
+.topic-content{
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    
+    top: 15px;
+    bottom: 15px;
+    right: 15px;
+    left: 15px;        
+}
+.topic-1,.topic-2,.topic-3{
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 189px;    
+    display: block;
+    display: flex;    
+    flex-direction: column;
+    width: calc(96%/3);
+}
+
+.topic-1{
+    background-image: url(../images/topic1.webp);
+}
+.topic-2{
+    background-image: url(../images/topic2.webp);
+}
+.topic-3{
+    background-image: url(../images/topic3.webp);
+}
+
+.post-meta a{
+    
+    background-color: inherit;
+    padding: 0;
+    letter-spacing: 0.75px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: inherit;
+    text-transform: none;
+    color: inherit;
+    font-weight: 400;
+}
+.ld-more{
+    display: block;
+    margin: 50px auto;
+    color: #8d8d8d;
+    padding: 5px 20px;
+    border: 1px solid #8d8d8d;
+    text-align: center;
+    border-radius: 4rem;
+    font-size: 14px;
+    transition-duration: 500ms;
+}
+.ld-more:hover{
+    background-color: #00f;
+    color: #fff;
+    cursor: pointer;
 }
